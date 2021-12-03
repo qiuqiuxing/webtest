@@ -61,8 +61,13 @@ public class TreeNode {
         D.right = I;
         E.right = J;
         F.right = K;
+        System.out.println("前");
         recursionPreorderTraversal( A);
+        System.out.println();
+        System.out.println("中");
         recursionMiddleorderTraversal( A);
+        System.out.println();
+        System.out.println("后");
         recursionPostorderTraversal( A);
     }
 }
